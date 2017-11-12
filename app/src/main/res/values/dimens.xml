@@ -4,7 +4,6 @@
     <dimen name="details_image_size">256dp</dimen>
     <dimen name="item_image_size">96dp</dimen>
     <dimen name="spacing_normal">16dp</dimen>
-    <dimen name="expanded_toolbar_height">200dp</dimen>
     <dimen name="image_final_width">32dp</dimen>
     <dimen name="image_circle_width">120dp</dimen>
     <dimen name="spacing_large">24dp</dimen>
@@ -13,5 +12,5 @@
     <dimen name="spacing_xxsmall">4dp</dimen>
     <dimen name="border_width">2dp</dimen>
     <dimen name="album_list_min_height">100dp</dimen>
-    <dimen name="artist_large_image_heigth">400dp</dimen>
+    <dimen name="expanded_toolbar_albums_height">400dp</dimen>
 </resources>
