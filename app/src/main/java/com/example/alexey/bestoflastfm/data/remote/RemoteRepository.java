@@ -37,7 +37,7 @@ public class RemoteRepository implements RemoteSource {
 
     public Observable<List<AlbumRemote>> fetchAlbums(String artistName) {
         return lastFMService
-                .getAlbums(Constants.LastFM.ALBUMS_METHOD_TYPE, artistName, Constants.LastFM.ALBUMS_COUNT)
+                .getAlbums(Constants.LastFM.ALBUMS_METHOD_TYPE, artistName, Constants.LastFM.DEFAULT_ALBUMS_COUNT)
                 .map(AlbumResponse::getAlbums);
     }
 }

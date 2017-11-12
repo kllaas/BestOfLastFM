@@ -7,7 +7,7 @@ import com.example.alexey.bestoflastfm.utils.Constants;
 
 import java.io.Serializable;
 
-@Entity(tableName = Constants.DB.ARTISTS_DB_NAME)
+@Entity(tableName = Constants.DataBase.ARTISTS_DB_NAME)
 public class Artist implements Serializable {
 
     @PrimaryKey

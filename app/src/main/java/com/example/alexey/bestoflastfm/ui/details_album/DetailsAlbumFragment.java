@@ -27,10 +27,6 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by alexey
- */
-
 public class DetailsAlbumFragment extends DialogFragment
         implements DetailsAlbumMVPContract.View {
 

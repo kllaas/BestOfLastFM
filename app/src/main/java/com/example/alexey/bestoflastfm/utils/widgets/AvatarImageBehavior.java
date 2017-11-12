@@ -78,7 +78,6 @@ public class AvatarImageBehavior extends CoordinatorLayout.Behavior<CircleImageV
 
         final int maxScrollDistance = (int) (mStartToolbarPosition);
         float expandedPercentageFactor = dependency.getY() / maxScrollDistance;
-        System.out.println(dependency.getY());
 
         child.setAlpha(expandedPercentageFactor * 3);
         if (expandedPercentageFactor < mChangeBehaviorPoint) {
@@ -104,8 +103,7 @@ public class AvatarImageBehavior extends CoordinatorLayout.Behavior<CircleImageV
             child.setY(mStartYPosition - distanceYToSubtract);
 
             CoordinatorLayout.LayoutParams lp = (CoordinatorLayout.LayoutParams) child.getLayoutParams();
-            lp.width = (int) (mStartHeight);
-            lp.height = (int) (mStartHeight);
+            lp.height = mStartHeight;
             child.setLayoutParams(lp);
         }
         return true;
@@ -140,13 +138,4 @@ public class AvatarImageBehavior extends CoordinatorLayout.Behavior<CircleImageV
         }
     }
 
-    public int getStatusBarHeight() {
-        int result = 0;
-        int resourceId = mContext.getResources().getIdentifier("status_bar_height", "dimen", "android");
-
-        if (resourceId > 0) {
-            result = mContext.getResources().getDimensionPixelSize(resourceId);
-        }
-        return result;
-    }
 }

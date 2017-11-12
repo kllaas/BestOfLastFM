@@ -35,9 +35,6 @@ ext {
     // Butterknife
     butterKnifeVersion = '8.8.1'
 
-    // Validation (Saripaar)
-    saripaarVersion = 'android-saripaar-2.0.3'
-
     // Retrofit
     retrofitVersion = '2.3.0'
 

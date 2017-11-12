@@ -12,7 +12,7 @@ import java.io.Serializable;
  * Created by alexey
  */
 
-@Entity(tableName = Constants.DB.ALBUMS_DB_NAME)
+@Entity(tableName = Constants.DataBase.ALBUMS_DB_NAME)
 public class Album implements Serializable {
 
     @PrimaryKey
