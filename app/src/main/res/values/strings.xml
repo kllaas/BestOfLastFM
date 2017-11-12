@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BestOfLastFM</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="listeners_count">%d listeners</string>
+    <string name="close">Close</string>
+    <string name="action_change_country">Change source counry</string>
+    <string name="choose_country">Choose country</string>
+    <string name="the_best_in_">The best in %s</string>
+</resources>
